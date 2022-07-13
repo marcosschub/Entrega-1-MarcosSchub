@@ -1,5 +1,5 @@
 from django.db import models
-from datetime import datetime
+##from datetime import datetime
 
 class Artista(models.Model):
     alias = models.CharField(max_length=30,primary_key=True)
